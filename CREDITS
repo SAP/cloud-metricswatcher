@@ -1,0 +1,24 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+Apache HttpComponents Client(https://hc.apache.org/httpcomponents-client-ga/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Apache Commons Logging (http://commons.apache.org/proper/commons-logging/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Apache Log4j (http://logging.apache.org/log4j/1.2/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Google gson(http://code.google.com/p/google-gson/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+Guava: Google Core Libraries For Java (https://github.com/google/guava)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+JUnit (http://junit.org/)
+Licensed under Eclipse Public License, Version 1.0 - https://www.eclipse.org/legal/epl-v10.html
+
+Mockito (http://mockito.org/)
+Licensed under MIT License - https://opensource.org/licenses/mit-license.html
