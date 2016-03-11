@@ -26,15 +26,16 @@ For more information about the REST call, see [Monitoring API](https://api.hana.
 2.	The monitoring service sends back a JSON response with a status code 200 OK.
 The response contains the metrics of the requested application and the states of these metrics.
 3.	The notification application parses the JSON response and checks for critical metrics.
-4.	The notification application notifies you by the following conditions:
-a.	A metric is critical for the first time – you receive a notification email.
-b.	A metric is critical three times – you receive an SMS.
+4.	The notification application notifies you by the following conditions:  
+  a.	A metric is critical for the first time – you receive a notification email.  
+  b.	A metric is critical three times – you receive an SMS.  
+  
 5.	The notification application checks if metrics have been critical three times and takes actions for application self-healing (the Java application is restarted).
 6.	The notification application repeats steps 1 to 5 for all other Java applications.
 
 Configuration
 -------------
-Download this project locally and follow the instructions in Tutorial: Implementing a Notification Application.
+Download this project locally and follow the instructions in [Tutorial: Implementing a Notification Application](http://scn.sap.com/docs/DOC-71317).
 
 Authors
 -------
