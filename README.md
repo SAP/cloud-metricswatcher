@@ -35,7 +35,7 @@ The response contains the metrics of the requested application and the states of
 
 Configuration
 -------------
-Download this project locally and follow the instructions in [Tutorial: Implementing a Notification Application](http://scn.sap.com/docs/DOC-71317).
+Download this project locally and follow the instructions in [Tutorial: Implementing a Notification Application](https://help.hana.ondemand.com/help/frameset.htm?9c74305e78fa4d8181ba13cbde55d5cf.html).
 
 Authors
 -------

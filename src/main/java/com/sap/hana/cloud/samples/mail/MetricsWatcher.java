@@ -45,7 +45,7 @@ public class MetricsWatcher {
 	public MetricsWatcher(List<ApplicationIdentifier> applications, String mailTo, String mailToSms, String user,
 			String password) {
 		this.applications = applications;
-		this.executor = new ScheduledThreadPoolExecutor(4);
+		this.executor = new ScheduledThreadPoolExecutor(2);
 		this.mailTo = mailTo;
 		this.mailToSms = mailToSms;
 		this.user = user;
