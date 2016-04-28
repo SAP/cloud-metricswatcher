@@ -26,7 +26,7 @@ public class Demo {
 		appList.add(appId1);
 
 		String landscapeFqdn2 = "api.us1.hana.ondemand.com";
-		String account2 = "a2 ";
+		String account2 = "a2";
 		String application2 = "app2";
 		ApplicationIdentifier appId2 = new ApplicationIdentifier(landscapeFqdn2, account2, application2);
 		appList.add(appId2);
