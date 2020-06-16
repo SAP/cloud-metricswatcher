@@ -1,7 +1,5 @@
 package com.sap.hana.cloud.samples.response.model;
 
-import com.google.common.base.Objects;
-
 public class Metric {
 	private String name;
 	private String state;
@@ -103,20 +101,40 @@ public class Metric {
 		this.max = d;
 	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hashCode(this.name, this.unit, this.metricType);
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((metricType == null) ? 0 : metricType.hashCode());
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        result = prime * result + ((unit == null) ? 0 : unit.hashCode());
+        return result;
+    }
 
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		final Metric other = (Metric) obj;
-		return Objects.equal(this.name, other.name) && Objects.equal(this.metricType, other.metricType)
-				&& Objects.equal(this.unit, other.unit);
-	}
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Metric other = (Metric) obj;
+        if (metricType == null) {
+            if (other.metricType != null)
+                return false;
+        } else if (!metricType.equals(other.metricType))
+            return false;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        if (unit == null) {
+            if (other.unit != null)
+                return false;
+        } else if (!unit.equals(other.unit))
+            return false;
+        return true;
+    }
 }
