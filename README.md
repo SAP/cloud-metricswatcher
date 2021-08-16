@@ -1,6 +1,6 @@
 # cloud-metricswatcher
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP/cloud-metricswatcher)](https://api.reuse.software/info/github.com/SAP/cloud-metricswatcher)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/cloud-metricswatcher/)](https://api.reuse.software/info/github.com/SAP/cloud-metricswatcher/)
 
 Intro
 -----------
@@ -58,4 +58,4 @@ Except as provided below, this software is licensed under the Apache License, Ve
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/cloud-metricswatcher).
+Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/cloud-metricswatcher/).
