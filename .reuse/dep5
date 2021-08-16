@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: cloud-metrics-dashboard
+Upstream-Name: cloud-metricswatcher
 Upstream-Contact: Yavor Mladenov <yavor.mladenov@sap.com>
 Source: https://github.com/SAP/cloud-metrics-dashboard
 Disclaimer: The code in this project may include calls to APIs (“API Calls”) of
