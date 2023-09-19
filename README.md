@@ -50,7 +50,7 @@ Authors
 Copyright and license
 ---------------------
 
-Copyright (c) 2015-2021 SAP SE
+Copyright (c) 2015-2023 SAP SE
 
 Except as provided below, this software is licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License.You may obtain a copy of the License at:
 
