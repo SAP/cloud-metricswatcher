@@ -199,7 +199,7 @@ public class ApiClient {
 	}
 
 	private String getApplicationMetricsUrl() {
-		return String.format("https://%s/monitoring/v1/accounts/%s/apps/%s/metrics", landscapeFqdn, accountName,
+		return String.format("https://%s/monitoring/v2/accounts/%s/apps/%s/metrics", landscapeFqdn, accountName,
 				applicationName);
 	}
 
