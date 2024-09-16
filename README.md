@@ -42,12 +42,17 @@ Download this project locally and follow the instructions in [Tutorial: Implemen
 Authors
 -------
 
-**Ivaylo Ruskov**
-+ http://github.com/iruskov
+**Yavor Mladenov**
++ http://github.com/yamladenov
 
 **Nikola Simeonov**
++ https://github.com/nikolasimeonov77
 
-Copyright and license
+Contributing
+---------------------
+See [Contributing to an SAP Open Source Project](https://github.com/SAP/.github/blob/main/CONTRIBUTING.md)
+
+Copyright and License
 ---------------------
 
 Copyright (c) 2015-2023 SAP SE
