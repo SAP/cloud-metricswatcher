@@ -23,7 +23,7 @@ The communication between this custom notification application and the Java appl
 
 1.	The notification application requests metrics of a Java application from SAP Monitoring service with a REST API call every minute.
 Note: The calls are sent per minute because the Java application metrics are refreshed each minute. 
-For more information about the REST call, see [Metrics API](https://api.hana.ondemand.com/monitoring/v1/documentation).
+For more information about the REST call, see [Metrics API](https://api.sap.com/api/HCP_Monitoring_v2/overview).
 
 2.	SAP Monitoring service sends back a JSON response with a status code 200 OK.
 The response contains the metrics of the requested application and the states of these metrics.
@@ -55,7 +55,7 @@ See [Contributing to an SAP Open Source Project](https://github.com/SAP/.github/
 Copyright and License
 ---------------------
 
-Copyright (c) 2015-2023 SAP SE
+Copyright (c) 2015-2026 SAP SE
 
 Except as provided below, this software is licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License.You may obtain a copy of the License at:
 
